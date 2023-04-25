@@ -17,13 +17,13 @@ class Person {
 class Student extends Person {
 
 	study(){
-		console.log(name)
+		console.log(super.name)
 	}
 }
 
 class Teacher extends Person {
 	teach(){
-		console.log(name)
+		console.log(super.name)
 	}
 }
 
